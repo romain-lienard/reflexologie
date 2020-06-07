@@ -1,0 +1,27 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.navbar {
+    font-weight: 300;
+    .nav-item {
+        font-size: 1.4rem;
+    }
+    .nav-link:hover {
+        transition: border 0.2s;
+        border-bottom: 1px solid #ffffffce;
+    }
+
+    img {
+        height: 50px;
+    }
+}
+
+.jumbotron {
+    height: 35vh;
+    background-color: white;
+    background-image: url("../img/home/info.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
