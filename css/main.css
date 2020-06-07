@@ -7813,6 +7813,11 @@ body {
   .navbar img {
     height: 50px; }
 
+#main-info {
+  text-align: center; }
+  #main-info img {
+    max-height: 45vh; }
+
 .jumbotron {
   height: 35vh;
   background-color: white;

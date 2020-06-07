@@ -17,6 +17,13 @@ body {
     }
 }
 
+#main-info {
+    text-align: center;
+    img {
+        max-height: 45vh;
+    }
+}
+
 .jumbotron {
     height: 35vh;
     background-color: white;
