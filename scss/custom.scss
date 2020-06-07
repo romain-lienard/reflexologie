@@ -1,15 +1,23 @@
+html {
+    height: 100%;
+}
+
 body {
     font-family: "Raleway", sans-serif;
+    min-height: 100%;
+    position: relative;
 }
 
 .navbar {
     font-weight: 300;
     .nav-item {
         font-size: 1.4rem;
+        margin: 0 1rem;
+        border-bottom: 1px solid #ffffff00;
+        
     }
     .nav-link:hover {
-        transition: border 0.2s;
-        border-bottom: 1px solid #ffffffce;
+        border-bottom: 1px solid #ffffff;
     }
 
     img {
@@ -24,11 +32,15 @@ body {
     }
 }
 
-.jumbotron {
-    height: 35vh;
-    background-color: white;
-    background-image: url("../img/home/info.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    a {
+        color: white;
+    }
+    a:hover {
+        color: #7bb09a;
+    }
 }
